@@ -5,8 +5,8 @@
 
 	<meta charset="utf-8">
 
-	<title>Ремонт квартир</title>
-	<meta name="description" content="Ремонт квартир в Минске, недорого, качественно">
+	<title>Ремонт квартир | Отделка комнат | remont kvartir</title>
+	<meta name="description" content="Ремонт квартир в Минске, remont kvartir, отделка комнаты, ремонт комнтаы, недорого, дешего, качественно">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -76,8 +76,8 @@
 				<ul>
 					<li class="active"><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Ремонт квартир</a></li>
 					<li><a href="disagn.html"><i class="fa fa-paint-brush" aria-hidden="true"></i>Дизайн</a></li>
-					<li><a href="#">Наши услуги</a></li>
-					<li><a href="#">Наши работы</a></li>
+					<li class="services-pressing"><a href="#">Наши услуги</a></li>
+					<li class="works-pressing"><a href="#">Наши работы</a></li>
 					<li><a href="#">Отзывы</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
@@ -89,7 +89,7 @@
 				<ul>
 					<li class="active"><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Ремонт квартир</a></li>
 					<li><a href="disagn.html"><i class="fa fa-paint-brush" aria-hidden="true"></i>Дизайн</a></li>
-					<li><a href="#">Наши услуги</a></li>
+					<li class="services-pressing"><a href="#">Наши услуги</a></li>
 					<li><a href="#">Наши работы</a></li>
 					<li><a href="#">Отзывы</a></li>
 					<li><a href="#">Контакты</a></li>
@@ -107,30 +107,35 @@
 					<div class="col-md-6 col-md-offset-1">
 						<div class="sitebar">
 							<h3 class="name-serv">Предоставляемые услуги:</h4>
-							<div id="nudge" class="sect"><a href="#">Отделочные работы</a></div>
-							<div id="nudge" class="sect"><a href="#">Гипсокартонные работы</a></div>
-							<div id="nudge" class="sect"><a href="#">Сантехнические работы</a></div>
-							<div id="nudge" class="sect"><a href="#">Облицовка плиткой</a></div>
-							<div id="nudge" class="sect"><a href="#">Электромонтажные работы</a></div>
-							<div id="nudge" class="sect"><a href="#">Укладка напольного покрытия</a></div>
-							<div id="nudge" class="sect"><a href="#">Устройство фасада</a></div>
-							<div id="nudge" class="sect"><a href="#">Земляные работы</a></div>
+							<div id="nudge" class="sect"><a href="#" title="Отделочные работы">Отделочные работы</a></div>
+							<div id="nudge" class="sect"><a href="#" title="Гипсокартонные работы">Гипсокартонные работы</a></div>
+							<div id="nudge" class="sect"><a href="#" title="Сантехнические работы">Сантехнические работы</a></div>
+							<div id="nudge" class="sect"><a href="#" title="Облицовка плиткой">Облицовка плиткой</a></div>
+							<div id="nudge" class="sect"><a href="#" title="Электромонтажные работы">Электромонтажные работы</a></div>
+							<div id="nudge" class="sect"><a href="#" title="Укладка напольного покрытия">Укладка напольного покрытия</a></div>
+							<div id="nudge" class="sect"><a href="#" title="Устройство фасада">Устройство фасада</a></div>
+							<div id="nudge" class="sect"><a href="#" title="Земляные работы">Земляные работы</a></div>
 						</div>
 					</div>
 					<div class="col-md-4">
 							<form class="contact-form">
+								<!-- Hidden Required Fields -->
+									<input type="hidden" name="project_name" value="Site Name">
+									<input type="hidden" name="admin_email" value="antonprof2411@gmail.com">
+									<input type="hidden" name="form_subject" value="Form Subject">
+								<!-- END Hidden Required Fields -->
 								<div class="contact-form-head">
 									<h4>Закажите бесплатную смету<br> или консультацию</h4>
 								</div>
 								<label>
 									<span>Введите Ваше имя:</span>
-									<input type="text" name="Имя" placeholder="Ваше имя...">
+									<input type="text" name="name" placeholder="Ваше имя...">
 								</label>
 								<label>
 									<span>Введите Ваш телефон:</span>
-									<input type="text" name="Телефон" id="phone" placeholder="Ваш телефон...">
+									<input type="text" name="phone" id="phone" placeholder="Ваш телефон...">
 								</label>
-									<a href="#" class="button">Сделать заказ</a>
+									<button class="button">Сделать заказ</button>
 							</form>
 						</div>
 					</div>
@@ -218,9 +223,9 @@
 		<div class="row">
 			<h1>Наши Услуги</h1>
 			<!-- Row_top -->
-			<div class="col-sm-3">
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="our-services-clm">
-					<img src="img/our-services/opportunities.png" alt="Отделочные работы">
+					<img src="img/our-services/opportunities.png" alt="Отделочные работы" title="Отделочные работы">
 					<h3>Отделочные работы</h3>
 					<p><br>Качество выполнения сантехнических работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
 					<a href="#otdelochni" class="butt-clm open-popup-link">Подробнее<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
@@ -231,27 +236,27 @@
 				</div>
 			</div>
 
-			<div class="col-sm-3">
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="our-services-clm">
-					<img src="img/our-services/RepairDrywall.png" alt="Гипсокартонные работы">
+					<img src="img/our-services/RepairDrywall.png" alt="Гипсокартонные работы" title="Гипсокартонные работы">
 					<h3>Гипсокартонные работы</h3>
-					<p>Качество выполнения сантехнических работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
+					<p>Качество выполнения сантехнических asdfj jsdf  sdjahfasd sdjafhas sdaf работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
 					<a href="#test-popup" class="butt-clm open-popup-link">Подробнее<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 				</div>
 			</div>
 
-			<div class="col-sm-3">
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="our-services-clm">
-					<img src="img/our-services/services_11.png" alt="Сантехнические работы">
+					<img src="img/our-services/services_11.png" alt="Сантехнические работы" title="Сантехнические работы">
 					<h3>Сантехнические работы</h3>
-					<p><br>Качество выполнения сантехнических работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
+					<p><br>Качество выполнения сантехническипр лоарпывы работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
 					<a href="#test-popup" class="butt-clm open-popup-link">Подробнее<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 				</div>
 			</div>
 
-			<div class="col-sm-3">
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="our-services-clm">
-					<img src="img/our-services/Ukladka-plitki-na-pol.png" alt="Облицовка плиткой">
+					<img src="img/our-services/Ukladka-plitki-na-pol.png" alt="Облицовка плиткой" title="Облицовка плиткой">
 					<h3>Облицовка плиткой</h3>
 					<p><br>Качество выполнения сантехнических работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
 					<a href="#test-popup" class="butt-clm open-popup-link">Подробнее<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
@@ -262,36 +267,36 @@
 			<!-- Row_bottom -->
 			<div class="row">
 				
-				<div class="col-sm-3">
+				<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="our-services-clm">
-					<img src="img/our-services/electric.png" alt="Электромонтажные работы">
+					<img src="img/our-services/electric.png" alt="Электромонтажные работы" title="Электромонтажные работы">
 					<h3>Электромонтажные работы</h3>
 					<p>Качество выполнения сантехнических работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
 					<a href="#test-popup" class="butt-clm open-popup-link">Подробнее<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 				</div>
 			</div>
 
-			<div class="col-sm-3">
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="our-services-clm">
-					<img src="img/our-services/otdelochnye-raboti-3-copy.png" alt="">
+					<img src="img/our-services/otdelochnye-raboti-3-copy.png" alt="" title="Устройство напольного покрытия">
 					<h3 class="pol">Укладка и устройство напольного покрытия</h3>
 					<p>Качество выполнения сантехнических работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
 					<a href="#test-popup" class="butt-clm open-popup-link">Подробнее<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 				</div>
 			</div>
 
-			<div class="col-sm-3">
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="our-services-clm">
-					<img src="img/our-services/fc44df9a3a565152b3fc8b85d4ea528f.png" alt="">
+					<img src="img/our-services/fc44df9a3a565152b3fc8b85d4ea528f.png" alt="" title="Устройство фасада">
 					<h3>Устройство фасада</h3>
 					<p><br>Качество выполнения сантехнических работ оказывает решающее влияние на комфортное проживание тех, кто будет пользоваться системами, смонтированными в квартире.</p>
 					<a href="#test-popup" class="butt-clm open-popup-link">Подробнее<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 				</div>
 			</div>
 
-			<div class="col-sm-3">
+			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="our-services-clm">
-					<a href="#test-popup" class="open-popup-link"><img src="img/our-services/0_b8429_65528d81_XXXL.png" alt=""></a>
+					<a href="#test-popup" class="open-popup-link"><img src="img/our-services/0_b8429_65528d81_XXXL.png" alt="" title="Земляные работы"></a>
 					<h3>Земляные работы</h3>
 					<p><br>Качество выполнения сантехнических работ оказывает решающее влияние на комфортное проживание тех,кто будет пользоваться системами, смонтированными в квартире.</p>
 					<a href="#test-popup" class="butt-clm open-popup-link">Подробнее<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
@@ -299,11 +304,6 @@
 			</div>
 
 			</div>
-			
-			
-
-
-		
 	</div>
 
 </section>
@@ -478,6 +478,20 @@
 	</div>
 
 </footer>
+
+<div class="hidden">
+	
+	<form id="callback" class="contact-form form-callback">
+
+		<input type="hidden" name="admin-data">
+
+
+		
+		
+
+	</form>
+
+</div>
 
 		
 		
